@@ -1,0 +1,246 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+
+body{
+    background-color: #823038;
+    color: #E6E6E6;
+}
+
+.menu{
+    width: 100%;
+    background-color: #12263A;
+    height: 12vh;
+    display: flex;
+   
+}
+
+.menu ul{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 50px;
+}
+
+.menu ul li{
+    display: inline-block;
+    margin-right: 40px;
+    font-size: larger;
+    font-family: sans-serif;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #FBFFFE;
+}
+
+.menu ul li a:hover{
+    color:#4D7EA8;
+    transition: all 1.5s;
+}
+
+.logo{
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 4vw;
+    margin-left: 3vw;
+
+}
+.carousel-item{
+    height: 88vh;
+} 
+.carousel-item img{
+    height: 88vh;
+}
+
+#cajas{
+width: 80vw;
+margin-bottom: 19vh;
+}
+
+#cajas p{
+    font-size: 1.31rem;
+    font-weight: 1000;
+    color:#0C1B33 ;
+}
+
+
+
+#cajita1:hover{
+    filter: grayscale(10);
+    transition: all 2s;
+    
+
+}
+
+#cajita2:hover{
+    filter: grayscale(10);
+    transition: all 2s;
+}
+
+#cajita3:hover{
+    filter: grayscale(10);
+    transition: all 2s;
+    
+}
+
+#cajita1 a{
+    background-image: url(./oleo.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+
+#cajita2 a{
+    background-image: url(./acuarela.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+
+#cajita3 a{
+    background-image: url(./lapiz.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+
+#cajas .row .col-md a{
+    display: flex;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    height: 35vh;
+    justify-content: center;
+}
+
+#cajas .row .col-md a{
+    text-decoration: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 135px;
+    padding-right: 135px;
+}
+.texto{
+    display: flex;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    width: 78vw;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight:100;
+}
+
+.col-md p{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    font-weight: 200;
+}
+
+.footer{
+    display: flex;
+    height: 8vh;
+    background-color: #1C2541;
+    color: whitesmoke;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.footer p{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#infooleo{
+    margin-bottom: 5vh;
+}
+
+#infooleo #praderafila .col-md {
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+#infooleo #praderafila img{
+    width: 20vw;
+    height: 28vh;
+
+}
+
+.titulooleo{
+    display: flex;
+    width: 100%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+h2{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2{
+    margin-top: 10px;
+}
+
+
+.horizontal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    align-items: center;
+}
+
+.horizontal img{
+    height: 14vw;
+    margin-right: 3vw;
+}
+
+#segunda img{
+    margin-right: 0;
+    margin-left: 3vw;
+}
+
+#primera{
+    margin-top: 14vh;
+}
+
+#segunda{
+    margin-top: 10vh;
+}
+
+#tercera{
+    margin-top: 10vh;
+}
+
+.tres{
+    display: flex;
+    width: 85vw;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#oleo{
+    filter:grayscale(100)
+}
+
+
+.abajo{
+    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-bottom: 7vh;
+}
+
+.abajocaja{
+    margin-top: 15vh;
+    margin-bottom: 20vh;
+}
